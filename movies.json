@@ -1,0 +1,19 @@
+{
+  "movies": [
+    {
+      "title": "The Fellowship of the Ring",
+      "picture": "lotr1.jpg",
+      "url": "https://example.com/lotr1"
+    },
+    {
+      "title": "The Two Towers",
+      "picture": "lotr2.jpg",
+      "url": "https://example.com/lotr2"
+    },
+    {
+      "title": "The Return of the King",
+      "picture": "lotr3.jpg",
+      "url": "https://example.com/lotr3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <video id="player"></video>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webtorrent/1.9.7/webtorrent.min.js"></script>
+  <script>
+    var client = new WebTorrent()
+
+    var magnetURI = 'magnet:?xt=urn:btih:9cb90dd872812eba8696a0ce782592f6515669a3&dn=The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.EXTENDED.2001.1080p.BrRip.x264.YIFY.mp4'
+
+    client.add(magnetURI, function (torrent) {
+      console.log('Client is downloading:', torrent.infoHash)
+
+      torrent.files.forEach(function (file) {
+        console.log('Starting download:', file.name)
+        // Display the file by adding it to the DOM.
+        // Supports video, audio, image files, and more!
+        file.appendTo('body')
+      })
+    })
+
+    client.on('error', function (err) {
+      console.error('Error in client:', err)
+    })
+  </script>
+</body>
+</html>

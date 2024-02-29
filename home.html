@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("Landscape.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="home.html"><button>Home</button></a>
+        <a href="matrix.html"><button>Matrix</button></a>
+        <a href="play.html"><button>Play</button></a>
+    </div>
+    <div class="search-container">
+        <input type="text" id="searchBox" placeholder="Search.."> <!-- Add an id to the search input -->
+    </div>
+    <div id="movieGrid" class="movie-container"></div> <!-- Add a container for the movies -->
+    <script src="searchscript.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>

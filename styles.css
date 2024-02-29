@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dbdbdb;
+    
+    align-items: center;
+    
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    
+    z-index: 1; /* Ensure the topbar is displayed over the background */
+}
+
+.topbar button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px; /* Increase the right and left margins */
+    cursor: pointer;
+    display: inline-flex;
+    
+    justify-content: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 500px; /* Set the width to match the total width of the buttons */
+    margin-bottom: 80px
+}
+
+.search-container input[type=text] {
+    padding: 10px; /* Increase the padding */
+    margin-top: 3px; /* Adjust the margin-top */
+    font-size: 20px; /* Increase the font size */
+    border: none;
+    width: 100%; /* Make the input field take up the full width of the .search-container */
+}
+
+#movieGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  
+  .movie {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .movie-container {
+    background-color: grey; /* Grey background */
+    max-height: 500px; /* Maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px; /* Some space around the content */
+  }
