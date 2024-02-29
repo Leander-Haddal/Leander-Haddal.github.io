@@ -3,20 +3,17 @@
     {
       "title": "The Fellowship of the Ring",
       "picture": "lotr1.jpg",
-      "url": "https://example.com/lotr1",
-      "magnet": "magnet:?xt=urn:btih:8fb489d3bfa8e4a80777c1795d74316d723970fc&dn=The+Lord+of+the+Rings+The+Fellowship+of+the+Ring&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com"
+      "url": "https://example.com/lotr1"
     },
     {
       "title": "The Two Towers",
       "picture": "lotr2.jpg",
-      "url": "https://example.com/lotr2",
-      "magnet": "magnet:?xt=urn:btih:b69c47c7b023fec9242834992fdaa134ae7171ea&dn=The+Lord+of+the+Rings+The+Two+Towers&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com"
+      "url": "https://example.com/lotr2"
     },
     {
       "title": "The Return of the King",
       "picture": "lotr3.jpg",
-      "url": "https://example.com/lotr3",
-      "magnet": "magnet:?xt=urn:btih:7c4fd0f92db60bb34701ef70eea67b50a47a7e57&dn=The+Lord+of+the+Rings+The+Return+of+the+King+EXTENDED+(2003)+%5B1080p%5D&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com"
+      "url": "https://example.com/lotr3"
     }
   ]
 }

@@ -7,7 +7,7 @@ fetch('movies.json')
       movieDiv.className = 'movie';
 
       const a = document.createElement('a');
-      a.href = `play.html?magnet=${encodeURIComponent(movie.magnet)}`; // Set the href to play.html with the magnet link
+      a.href = movie.url; // Set the href to the movie's URL
 
       const img = document.createElement('img');
       img.src = movie.picture;
