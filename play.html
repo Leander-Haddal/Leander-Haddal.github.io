@@ -89,9 +89,18 @@
     return urlParams.get('magnet');
     }
 
+    function getMovieTitle() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get('title');
+    }
+
     const torrentLink = document.getElementById('torrentLink');
     const torrentId = decodeURIComponent(getMagnetLink());
     torrentLink.href = torrentId;
+
+    const movieTitle = decodeURIComponent(getMovieTitle());
+    torrentLink.textContent = movieTitle;
+    
 
       const client = new WebTorrent()
 
